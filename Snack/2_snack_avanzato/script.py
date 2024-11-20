@@ -10,7 +10,7 @@ def guess3(min, max):
   # numero generato con funzione random importata
   nr_generato = random.randint(a, b)
   # Debug del numero generato, scomentare il print sottostante
-  print(nr_generato)
+  # print(nr_generato)
   nr_scelto = 0   # dobbiamo inizializzare nr_scelto per poterlo usare nel ciclo
   #ciclo while
   while nr_scelto != nr_generato:
@@ -26,7 +26,7 @@ def guess3(min, max):
     # int per numero intero
     percentuale = int((valore_relativo / c) * 100)
     # Debug della percentuale, scomentare il print sottostante
-    print(f'{percentuale} %')
+    # print(f'{percentuale} %')
     # istruzioni condizionali
     if percentuale > 10:
       print('Oceano')
